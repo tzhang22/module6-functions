@@ -4,7 +4,7 @@
 my.name <- "Tony"
 
 # Create a variable `name.length` that holds how many letters are in your name (use the `nchars()` function)
-name.length <- nchars(my.name)
+name.length <- nchar(my.name)
 
 # Print the number of letters in your name
 print(name.length)
@@ -14,7 +14,7 @@ print(name.length)
 now.doing <- paste(my.name, "is programming!")
 
 # Make the `now.doing` variable upper case
-now.doing <- toupper(now.doing)
+toupper(now.doing)
 
 ### Bonus
 
@@ -30,7 +30,7 @@ fav.2 <- fav.2 / sqrt(201)
 raw.sum <- sum(fav.2, fav.1)
 
 # Create a variable `round.sum` that is the `raw.sum` rounded to 1 decimal place. Use the `round()` function
-round.sum = round(raw.sum, 1)
+round.sum <- round(raw.sum, 1)
 
 # Create two new variables `round.1` and `round.2` that are your `fav.1` and `fav.2` variables rounded
 # to 1 decimal place
